@@ -1,0 +1,13 @@
+{
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.encoding": "utf8",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact",
+    "thunder-client.customLocation": "$HOME/amastec/notifications-service",
+    "thunder-client.codeSnippetLanguage": "cs-httpclient",
+  },
+  "editor.tabSize": 2,
+}

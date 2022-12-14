@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "5f539359-a4f0-44a6-811a-ddbc037d6741",
+    "colId": "3f180e80-a16c-4cbb-86f6-542f674494a3",
+    "containerId": "",
+    "name": "List",
+    "url": "{{url}}/notifications",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-14T11:09:24.085Z",
+    "modified": "2022-12-14T11:09:41.191Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "e3a6a0a0-68a1-4e3c-813f-712a744b49d3",
+    "colId": "3f180e80-a16c-4cbb-86f6-542f674494a3",
+    "containerId": "",
+    "name": "Criar",
+    "url": "{{url}}/notifications",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-14T11:09:55.436Z",
+    "modified": "2022-12-14T13:27:43.328Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"content\": \"Você tem uma nova notificação\",\n  \"category\": \"social\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
