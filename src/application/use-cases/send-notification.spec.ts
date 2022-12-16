@@ -7,12 +7,13 @@ describe('Send Notification', () => {
     const notificationsRepository = new InMemoryNotificationsRepository();
     const sendNotification = new SendNotification(notificationsRepository);
 
-    await sendNotification.execute({
+    const { notification } = await sendNotification.execute({
       recipientId: 'example-recipient-Id',
       content: 'This is a notification',
       category: 'social',
     });
 
     expect(notificationsRepository.notifications).toHaveLength(1);
+    expect(notificationsRepository.notifications[0]).toEqual(notification);
   });
 });
