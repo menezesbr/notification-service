@@ -10,4 +10,8 @@
     "thunder-client.codeSnippetLanguage": "cs-httpclient",
   },
   "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    // "source.organizeImports": true
+  },
 }
