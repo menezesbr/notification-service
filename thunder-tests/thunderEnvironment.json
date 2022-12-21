@@ -10,6 +10,14 @@
       {
         "name": "url",
         "value": "http://localhost:3000"
+      },
+      {
+        "name": "notificationId",
+        "value": "51ba00b3-dded-49e8-80d0-46f0af587b5c"
+      },
+      {
+        "name": "recipientId",
+        "value": "59a72127-67d7-4a10-af00-df2e059ceb50"
       }
     ]
   }
